@@ -1,0 +1,22 @@
+{
+  "name": "nuxt-app",
+  "proxy": "http://localhost:28220",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "axios": "^1.6.7",
+    "jquery": "^3.7.1",
+    "nuxt": "^3.10.3",
+    "proxy": "^2.1.1",
+    "tus-js-client": "^4.0.1",
+    "vue": "^3.4.21",
+    "vue-router": "^4.3.0"
+  }
+}
