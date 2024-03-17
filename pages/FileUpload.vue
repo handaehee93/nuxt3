@@ -15,6 +15,9 @@
                         <div class="js-action-btn">
                             <button class="btn" id="toggle-btn" v-on:click="uploadFile">파일 업로드</button>
                         </div>
+                        <div>
+                            <div>useState를 사용한 전역 상태 관리 : {{ counter2 }}</div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -38,6 +41,7 @@ import $ from "jquery";
         layout: 'logined'
     })
     
+    const counter2 = useState("counter" )
 
     function formatBytes(bytes, decimals = 2) {
             if (bytes === 0) {

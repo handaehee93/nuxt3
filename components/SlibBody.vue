@@ -9,20 +9,12 @@
             </div>
         </div>
         <div class="right">
-            <SlibLogin></SlibLogin>
+            <SlibLogin />
         </div>
     </div>
 </template>
 
-<script>
-import SlibLogin from "./SlibLogin.vue"
-
-export default {
-    components : {
-        SlibLogin
-    }
-
-}
+<script setup>
 </script>
 
 <style scoped>
